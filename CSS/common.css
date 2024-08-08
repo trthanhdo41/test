@@ -115,7 +115,7 @@ header .container-fluid {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .card {
-    height: 500px;
+    height: 470px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -131,17 +131,9 @@ header .container-fluid {
 }
 
 .card img {
-    height: 300px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Căn giữa theo trục ngang */
-    justify-content: center; /* Căn giữa theo trục dọc */
-    text-align: center; /* Căn giữa chữ */
 }
 
 .card-title {
@@ -157,7 +149,6 @@ header .container-fluid {
     color: #555;
     margin: 10px 0;
     flex-grow: 1;
-    text-align: center; /* Căn giữa chữ */
 }
 
 .btn-primary {
@@ -179,7 +170,6 @@ header .container-fluid {
     border: 1px solid #000;
     transform: translateY(-2px);
 }
-
 
 .pagination {
     display: flex;
@@ -804,27 +794,3 @@ input:not(:placeholder-shown) ~ .reset {
 .carousel-item {
     transition: transform 2s ease-in-out;
 }
-
-.thumbnail {
-    cursor: pointer;
-}
-
-.product-detail-bg {
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.quantity-group .quantity-btn {
-    width: 40px;
-}
-
-.quantity-group .quantity-display {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 2.4;
-}
-
-.add-to-cart-btn {
-    padding-top: 20px;
-}
-
